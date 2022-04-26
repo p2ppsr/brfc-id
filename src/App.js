@@ -21,6 +21,7 @@ const useStyles = makeStyles(theme => ({
   },
   fields: {
     marginTop: theme.spacing(7),
+    marginBottom: theme.spacing(5),
     display: 'grid',
     gridGap: theme.spacing(5)
   },
@@ -112,6 +113,9 @@ const App = () => {
           </CardContent>
         </Card>
       </div>
+      <Typography align='center'>
+        See the code <a href='https://github.com/p2ppsr/brfc-id' target='_blank' rel='noopener noreferrer'>on GitHub</a>
+      </Typography>
     </div>
   )
 }
