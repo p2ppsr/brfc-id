@@ -2,6 +2,8 @@
 
 Easily calculate BRFC IDs for your specifications on the web
 
+We've deployed this repo at [brfc-id.babbage.systems](https://brfc-id.babbage.systems) :)
+
 ## Development Instructions
 
 Clone the repo, then run `npm i` to install packages.
