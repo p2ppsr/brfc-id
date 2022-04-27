@@ -28,7 +28,11 @@ const useStyles = makeStyles(theme => ({
   id: {
     fontFamily: 'monospace',
     userSelect: 'all',
-    letterSpacing: theme.spacing(1)
+    letterSpacing: theme.spacing(1),
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '2em',
+      letterSpacing: theme.spacing(0.4)
+    }
   }
 }), { name: 'BRFC' })
 
